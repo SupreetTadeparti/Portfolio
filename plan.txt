@@ -1,0 +1,48 @@
+Basic:
+Name + Role + Photo
+Skills
+Projects + Case Studies
+Achievements (Swamp Hacks X)
+About
+Contact
+
+The website should tell as well as demonstrate my skills, so maybe I could 
+add a n body simulator as the background or make it interactive. 
+
+I should add some parallax effect or dynamic (animated) background of some sort
+
+Can have a projects section where there are interactive thumbnails of projects which could be clicked on 
+to open that project's website or github
+
+The website should always feel alive with a constantly evolving page or background effects
+
+Technical:
+I should use one of the big 3 frameworks especially if I want to join as a frontend developer (since companies
+don't really need us to know svelte). However, building it on a new framework could also demonstrate our
+enthusiasm for learning new things.
+
+I don't like angular, so I have to choose between react.js and vue.js. I don't have any projects with vue.js currently
+so maybe I should just go for that (since I also like vue more). 
+
+Projects:
+https://vigorous-johnson-c88979.netlify.app/ (Pathfinding Visualizer)
+https://github.com/SupreetTadeparti/TerrainGeneration (Terrain Generation)
+MathWhiz
+Recom
+Inkwell
+
+
+STAGES:
+
+STAGE 1:
+Content
+General Design
+
+STAGE 2:
+Transitions
+Backgrounds
+Interactivity
+
+STAGE 3:
+Final Bug Fixes
+Peer Review

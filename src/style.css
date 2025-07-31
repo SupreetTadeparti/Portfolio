@@ -1,0 +1,27 @@
+:root {
+  --primary-text: hsl(25, 100%, 65%);
+  --secondary-text: hsl(205, 100%, 65%);
+  --primary: 25, 100%, 65%;
+  --secondary: 205, 100%, 65%;
+  --black: 0, 0%, 13%;
+  --white: 0, 0%, 90%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#app {
+  font-family: Tektur, Jura, Funnel Sans, sans-serif;
+  margin: 0;
+  height: 100%;
+}
+
+h1,
+p {
+  margin: 0;
+}
