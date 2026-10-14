@@ -149,7 +149,7 @@ export default function RolePage({ roleId }) {
       <section className="section" style={{ paddingTop: 0 }}>
         <div className="wrap">
           <SectionHead num="G2" kicker="Game two" title="Highlights">
-            The projects that best show what I bring to {r.label.toLowerCase()} work.
+            The projects that best show my {r.label.toLowerCase()} experience.
           </SectionHead>
           <div className="points">
             {r.projects.map((id, i) => (
@@ -238,7 +238,7 @@ export default function RolePage({ roleId }) {
             <div>
               <Eyebrow>Match point</Eyebrow>
               <h2>Hiring for {r.label}?</h2>
-              <p>Grab the one-page resume for this court, or send a serve my way.</p>
+              <p>You can download my resume for this role, or just send me an email.</p>
             </div>
             <div className="role-actions">
               <a className="btn" href={r.resume} target="_blank" rel="noreferrer">

@@ -1,32 +1,104 @@
-# Portfolio 3.0 — Center Court
+# Center Court
 
-A table-tennis-broadcast portfolio: a live 3D rally on the home page, one "court" per role (Security, Full-Stack, ML), case studies, an archive of every repo, and an open source & leadership page.
+This is my personal portfolio (version 3.0). I'm a CS student at the University of Florida and President of the UF Table Tennis Club, so I designed the whole site to feel like a table tennis match on TV: a 3D table on the home page, scoreboards, ball tracking and a lot of ping pong puns.
 
-## Run
+## What's on the site
+
+| Page | Route | What it shows |
+|---|---|---|
+| Home | `/` | A live 3D table with a rally going. Click one of the three courts on the far side (or the buttons below it) and the ball gets served into that court and takes you to that role's page. You can also drag to spin the table around. |
+| Security | `/security` | My experience, projects and skills for security roles, plus that version of my resume |
+| Full-Stack | `/fullstack` | Same layout, set up for full-stack roles |
+| ML | `/ml` | Same layout, set up for machine learning roles |
+| About | `/about` | A bit about me, what I'm working on now, a year-by-year timeline and some fun facts |
+| Case studies | `/work/:slug` | Deeper write-ups of MathWhiz, ConstelGuessr, SNOP and Moon |
+| Team | `/team` | Leadership, open source and hackathons |
+| Archive | `/archive` | Every public repo on my GitHub, with filters and search |
+
+Each role page has its own resume PDF, so I can send someone a link like `/ml` that only shows what's relevant to them.
+
+## Features
+
+- **3D home page** built with React Three Fiber. The rally runs on its own, the bounce marks fade out like Hawk-Eye, and a small panel shows the speed, spin and rally length for each shot.
+- **Drag to rotate.** Click and drag the table to spin it a full 360°.
+- **Custom cursor** shaped like a ping pong ball. It changes when you hover over links or the table.
+- **Light and dark mode.** Dark is the default; your choice is saved in the browser.
+- **Works on phones.** Smaller screens get a lighter 2D table instead of the 3D one.
+- **Reduced motion support.** If your system asks for less motion, the animations are turned off.
+- **Keyboard friendly.** Everything you can click can also be reached with Tab, and focus is always visible.
+
+## Built with
+
+- [React 18](https://react.dev) and [Vite](https://vitejs.dev)
+- [React Router](https://reactrouter.com) for the pages
+- [Framer Motion](https://www.framer.com/motion/) for page transitions and scroll animations
+- [three.js](https://threejs.org), [React Three Fiber](https://docs.pmnd.rs/react-three-fiber) and [drei](https://github.com/pmndrs/drei) for the 3D table
+- Fonts: Unbounded, Inter and JetBrains Mono from Google Fonts
+
+The 3D code only loads on the home page (and only on larger screens), so the other pages stay light.
+
+## Running it locally
+
+You'll need Node 18 or newer.
 
 ```bash
 npm install
-npm run dev       # local dev server
-npm run build     # production build in dist/
-npm run preview   # serve the build
-npm run repos     # refresh src/data/repos.json from the GitHub API
+npm run dev       # start the dev server at http://localhost:5173
+npm run build     # build the site into dist/
+npm run preview   # preview the built site
+npm run repos     # refresh the Archive from the GitHub API
 ```
 
-## Editing content
+## Project structure
 
-All copy lives in `src/data/`:
+```
+public/
+  img/              profile photo
+  resumes/          security.pdf, fullstack.pdf, ml.pdf
+scripts/
+  fetch-repos.mjs   pulls my public repos into src/data/repos.json
+src/
+  data/             all of the site's text and numbers (see below)
+  pages/            one file per page
+  components/       nav, footer, cursor, ticker and shared UI pieces
+  three/Arena.jsx   the 3D table, rally and camera
+  styles/           design tokens and page styles
+```
+
+## Updating the content
+
+Almost all of the text lives in `src/data/`, so you rarely need to touch the page components.
 
 | File | What it controls |
 |---|---|
-| `profile.js` | Name, contact, "Now" ticker, experience, education |
-| `roles.js` | Each court's headline, stats, project order, skills, resume PDF |
-| `projects.js` | Project cards (bullets can differ per role) |
-| `caseStudies.js` | The four "Match breakdown" pages |
-| `team.js` | Open source, leadership and hackathons |
-| `repoNotes.js` | Descriptions for repos that have none on GitHub |
+| `profile.js` | Name, contact info, the "Now" ticker, experience and education |
+| `roles.js` | Each role page: headline, intro, stats, which projects show up and in what order, skills and resume |
+| `projects.js` | Project cards. Bullets can be different for each role. |
+| `caseStudies.js` | The four case study pages |
+| `team.js` | Leadership, open source and hackathons |
+| `repoNotes.js` | Short descriptions for repos that don't have one on GitHub |
+| `repos.json` | Generated by `npm run repos`. Don't edit it by hand. |
 
-Resumes are in `public/resumes/` and the photo is `public/img/supreet.jpeg`. Replace the files to update them.
+To update a resume or the photo, just replace the file in `public/resumes/` or `public/img/` and keep the same name.
 
-## Deploy
+To change how repos are grouped in the Archive, edit the `CATEGORY` and `SKIP` lists at the top of `scripts/fetch-repos.mjs`, then run `npm run repos`.
 
-Works on Vercel (`vercel.json`) or Netlify (`public/_redirects`) as a single-page app. Point the project root at this folder.
+## Deploying
+
+The site is a single-page app, so the host needs to send every route back to `index.html`. Config for both of these is already included.
+
+**Vercel (what I use)**
+
+1. Push this folder to GitHub.
+2. On [vercel.com](https://vercel.com), choose **Add New → Project** and import the repo. If this folder isn't the repo root, set **Root Directory** to `3.0`.
+3. Vercel detects Vite automatically (build command `npm run build`, output `dist`). Click **Deploy**.
+
+Every push to `main` redeploys the site. `vercel.json` handles the route rewrites.
+
+**Netlify** works too. Use the same build command and output folder; `public/_redirects` handles the rewrites.
+
+## Contact
+
+- Email: supreettadeparti@gmail.com
+- GitHub: [SupreetTadeparti](https://github.com/SupreetTadeparti)
+- Devpost: [SupreetTadeparti](https://devpost.com/SupreetTadeparti)

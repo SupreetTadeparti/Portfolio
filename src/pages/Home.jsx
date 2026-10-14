@@ -109,7 +109,7 @@ function Hero() {
           animate={{ opacity: serve ? 0.4 : 1, y: 0 }}
           transition={{ duration: 0.7, delay: 0.3 }}
         >
-          <span className="serve-label">Pick a court — I’ll serve</span>
+          <span className="serve-label">Pick a court and I’ll serve</span>
           <div className="serve-chips">
             {roleList.map((r) => (
               <button
@@ -140,7 +140,7 @@ function Hero() {
 const highlights = [
   { value: repos.length, suffix: '', label: 'Public repos since 2021' },
   { value: 1000, suffix: '+', label: 'Athletes on the NCTTA app' },
-  { value: 3, suffix: 'rd', label: 'SwampHacks X, overall' },
+  { value: 3, suffix: 'rd', label: 'Overall at SwampHacks X' },
   { value: 8000, suffix: '+', label: 'Dollars raised for the club', prefix: '$' },
 ];
 
@@ -166,11 +166,11 @@ export default function Home() {
             <Reveal>
               <Eyebrow>Player intro</Eyebrow>
               <h2 className="intro-statement">
-                I build software that <em>holds up under pressure</em> — secure systems, full-stack apps and models that learn.
+                Hey, I’m Supreet. I study CS at UF and spend most of my time <em>building things</em>.
               </h2>
               <p className="intro-sub">
-                Right now I’m shipping .NET 8 and Azure features at NCTTA, leading the UF Table Tennis Club to Nationals,
-                and building Textraordinary with classmates. Off the clock I write graphics engines for fun.
+                Right now I’m working on .NET 8 and Azure features at NCTTA, running the UF Table Tennis Club, and building
+                Textraordinary with a few classmates. When I have free time, I like working on graphics projects like my C++ engine.
               </p>
             </Reveal>
             <div className="intro-stats">
@@ -185,7 +185,7 @@ export default function Home() {
               ))}
             </div>
             <Link to="/about" className="btn ghost">
-              Full player profile <Icon.arrow />
+              More about me <Icon.arrow />
             </Link>
           </div>
         </div>
@@ -194,8 +194,8 @@ export default function Home() {
       {/* Courts */}
       <section className="section" style={{ paddingTop: 0 }}>
         <div className="wrap">
-          <SectionHead num="01" kicker="Choose your court" title="Three ways to play">
-            Each court is a full portfolio tuned to one role — the experience, projects, skills and resume that matter for it.
+          <SectionHead num="01" kicker="Choose your court" title="Pick a role">
+            Each page is set up for one kind of role, with the experience, projects, skills and resume that fit it best.
           </SectionHead>
           <div className="court-cards">
             {roleList.map((r, i) => (
@@ -225,8 +225,8 @@ export default function Home() {
       {/* Case studies */}
       <section className="section" style={{ paddingTop: 0 }}>
         <div className="wrap">
-          <SectionHead num="02" kicker="Match breakdowns" title="Replays worth watching">
-            Frame-by-frame breakdowns of four builds — the problem, the architecture, the calls I made and how it played out.
+          <SectionHead num="02" kicker="Match breakdowns" title="A closer look">
+            Four projects in more detail: what problem each one solves, how it works, and the decisions I made along the way.
           </SectionHead>
           <div className="case-grid">
             {caseStudies.map((c, i) => (
@@ -258,7 +258,7 @@ export default function Home() {
             <Link to="/team" className="beyond-card">
               <Eyebrow>Open source & leadership</Eyebrow>
               <h3>The Team</h3>
-              <p>UF Open Source Club, NCTTA, club presidency, peer mentoring and hackathon podiums.</p>
+              <p>My work with UF’s Open Source Club, NCTTA, the table tennis club, peer mentoring and hackathons.</p>
               <Icon.arrow />
             </Link>
           </Reveal>
@@ -266,7 +266,7 @@ export default function Home() {
             <Link to="/archive" className="beyond-card">
               <Eyebrow>Playground</Eyebrow>
               <h3>Training Log</h3>
-              <p>All {repos.length} public repos — game AIs, engines, visualizers and hackathon builds since 2021.</p>
+              <p>All {repos.length} of my public repos since 2021, including game AIs, engines, visualizers and hackathon projects.</p>
               <Icon.arrow />
             </Link>
           </Reveal>

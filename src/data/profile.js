@@ -11,17 +11,17 @@ export const profile = {
   githubHandle: 'SupreetTadeparti',
   devpost: 'https://devpost.com/SupreetTadeparti',
   photo: '/img/supreet.jpeg',
-  tagline: 'Software engineer building secure systems, full-stack apps & models that learn.',
+  tagline: 'I build secure web apps, full-stack projects and machine learning tools.',
   binaryBio: '01100011 01101111 01100100 01100101',
 };
 
 // "Now" items show in the home ticker and on the About page.
 export const now = [
-  { label: 'Shipping', text: '.NET 8 / Azure features at NCTTA for 1,000+ collegiate athletes' },
-  { label: 'Building', text: 'Textraordinary — a texting-coach app, with classmates' },
-  { label: 'Leading', text: 'UF Table Tennis Club as President — Nationals bound' },
+  { label: 'Working on', text: '.NET 8 and Azure features at NCTTA, used by 1,000+ college athletes' },
+  { label: 'Building', text: 'Textraordinary, a texting-coach app, with a few classmates' },
+  { label: 'Leading', text: 'the UF Table Tennis Club as President' },
   { label: 'Contributing', text: 'UF Open Source Club’s Jukebox frontend' },
-  { label: 'Studying', text: 'CS @ UF, class of 2028 · Dean’s List' },
+  { label: 'Studying', text: 'Computer Science at UF, class of 2028' },
 ];
 
 export const experience = [

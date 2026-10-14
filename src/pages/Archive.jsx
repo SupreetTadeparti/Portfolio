@@ -8,7 +8,7 @@ import '../styles/pages.css';
 const CATS = ['All', 'AI/ML', 'Graphics/Sim', 'Web', 'Games', 'Tools', 'Hackathon'];
 const FEATURED = new Set(['MathWhiz', 'ConstelGuessr', 'Moon', 'TerrainGeneration', 'SNOP', 'Inkwell', 'TetrisAI', 'Snake-AI']);
 
-/** Repos created per year — single series, one hue, per-bar tooltip. */
+/** Repos created per year: single series, one hue, per-bar tooltip. */
 function YearChart({ data, active, onPick }) {
   const [tip, setTip] = useState(null);
   const max = Math.max(...data.map((d) => d.n));
@@ -83,8 +83,8 @@ export default function Archive() {
             <Eyebrow>Playground</Eyebrow>
             <h1 className="page-title">Training Log</h1>
             <p className="page-lede">
-              Every public repo since 2021 — game AIs, engines, visualizers, hackathon builds and the experiments in between.
-              Featured work floats to the top.
+              Every public repo I’ve made since 2021, including game AIs, engines, visualizers and hackathon projects.
+              The ones I’m proudest of are listed first.
             </p>
           </Reveal>
           <Reveal delay={0.1}>
@@ -147,7 +147,7 @@ export default function Archive() {
                     <b>{r.name}</b>
                     <Icon.ext />
                   </div>
-                  <p>{r.description || repoNotes[r.name] || '—'}</p>
+                  <p>{r.description || repoNotes[r.name] || 'No description yet.'}</p>
                   <div className="repo-meta">
                     <span><i className="lang-dot" />{r.language}</span>
                     <span>{r.created.slice(0, 4)}</span>
@@ -158,7 +158,7 @@ export default function Archive() {
               ))}
             </AnimatePresence>
           </motion.div>
-          {list.length === 0 && <p className="empty">No repos match — that’s a let. Try another filter.</p>}
+          {list.length === 0 && <p className="empty">Nothing matches that. Try a different filter.</p>}
         </div>
       </section>
     </Page>

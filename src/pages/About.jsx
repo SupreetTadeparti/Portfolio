@@ -8,18 +8,18 @@ import { Page, Reveal, SectionHead, Eyebrow, Icon } from '../components/ui.jsx';
 import '../styles/pages.css';
 
 const career = [
-  { year: '2021', title: 'First serve', body: 'Started shipping on GitHub — a pathfinding visualizer, a neural-network visualizer, a sudoku solver and a pile of mini-games.' },
-  { year: '2022', title: 'Into the engine room', body: 'Began Moon, a C++/OpenGL engine; generated infinite low-poly terrain in Python; taught a NEAT network to play Snake; built a Passport auth server.' },
-  { year: '2023', title: 'Hackathon season', body: '2nd Place Overall at LingHacks V with Paruni (NLP + OpenAI) and Best Game Hack runner-up at HackBytes II with Word Storm. Also neuroevolved a Tetris agent and built Recom (Vue + Firebase).' },
-  { year: '2024', title: 'Gainesville', body: 'Started CS at the University of Florida. Won Most Technical Complexity at Steel City Hacks with Snowgineer and built Inkwell on the ICP blockchain for the dApp Hackathon.' },
-  { year: '2025', title: 'Podium & presidency', body: '3rd Place Overall at SwampHacks X with MathWhiz. Became UF Table Tennis Club President, mentored 60+ students in COP 3502C, shipped ConstelGuessr and SNOP. Dean’s List.' },
-  { year: '2026', title: 'Pro tour', body: 'Software Engineer at NCTTA on .NET 8 and Azure, contributing to UF OSC’s Jukebox, and building Textraordinary with classmates.' },
+  { year: '2021', title: 'First serve', body: 'Started putting projects on GitHub: a pathfinding visualizer, a neural network visualizer, a sudoku solver and a bunch of small games.' },
+  { year: '2022', title: 'Getting into graphics', body: 'Started Moon, my C++ and OpenGL engine. I also generated infinite low-poly terrain in Python, taught a NEAT network to play Snake, and built a login server with Passport.' },
+  { year: '2023', title: 'Hackathon season', body: 'Won 2nd Place Overall at LingHacks V with Paruni, and 2nd for Best Game Hack at HackBytes II with Word Storm. I also built a Tetris AI and Recom, a community app made with Vue and Firebase.' },
+  { year: '2024', title: 'Starting at UF', body: 'Started studying CS at the University of Florida. Won Most Technical Complexity at Steel City Hacks with Snowgineer, and built Inkwell on the ICP blockchain for the dApp Hackathon.' },
+  { year: '2025', title: 'A busy year', body: 'Took 3rd overall at SwampHacks X with MathWhiz, became President of the UF Table Tennis Club, mentored 60+ students in COP 3502C, built ConstelGuessr and SNOP, and made the Dean’s List.' },
+  { year: '2026', title: 'Going pro', body: 'Joined NCTTA as a Software Engineer working in .NET 8 and Azure, started contributing to UF OSC’s Jukebox, and started building Textraordinary with classmates.' },
 ];
 
 const facts = [
-  { k: 'GitHub bio', v: profile.binaryBio, note: '= “code”. Spreading love through it.' },
-  { k: 'Old handle', v: 'PotatoFleet', note: 'Hence repos like Potatoes and PotatoGames.' },
-  { k: 'Same sport, both sides', v: 'Player → President → Engineer', note: 'From the club table to NCTTA’s national platform.' },
+  { k: 'GitHub bio', v: profile.binaryBio, note: 'That spells “code” in binary.' },
+  { k: 'Old handle', v: 'PotatoFleet', note: 'That’s why some of my repos are called Potatoes and PotatoGames.' },
+  { k: 'Same sport, both sides', v: 'Player, President, Engineer', note: 'I play for UF, run the club, and now help build NCTTA’s software too.' },
 ];
 
 function TradingCard() {
@@ -83,18 +83,18 @@ export default function About() {
             </Reveal>
             <Reveal className="about-bio" delay={0.1}>
               <p>
-                I’m a Computer Science student at the <strong>University of Florida</strong> (class of 2028) who has been
-                building in public since 2021 — {repos.length} repos and counting, from sorting visualizers and Snake-playing
-                neural nets to a C++ graphics engine.
+                I’m a Computer Science student at the <strong>University of Florida</strong>, class of 2028. I’ve been
+                putting projects on GitHub since 2021 ({repos.length} so far), everything from sorting visualizers and neural
+                nets that play Snake to a graphics engine in C++.
               </p>
               <p>
-                Today I write <strong>.NET 8 and Azure</strong> features as a Software Engineer at <strong>NCTTA</strong>, the
-                platform behind collegiate table tennis in the US. That’s fitting: I’m also <strong>President of the UF
-                Table Tennis Club</strong>, which I helped get back to Nationals for the first time in eight years.
+                Right now I’m a Software Engineer at <strong>NCTTA</strong>, which runs collegiate table tennis in the US,
+                where I work on <strong>.NET 8 and Azure</strong> features. I’m also <strong>President of the UF Table Tennis
+                Club</strong>, and we recently made it to Nationals for the first time in eight years.
               </p>
               <p>
-                I care about software that is secure by default, pleasant to use and honest about what it does — and I like
-                teaching it, too: I spent a semester as a peer mentor for 60+ students in UF’s intro programming course.
+                I care a lot about writing software that’s secure and easy to use. I also enjoy teaching. I spent a semester
+                as a peer mentor for UF’s intro programming course, working with 60+ students every week.
               </p>
             </Reveal>
             <Reveal className="about-actions" delay={0.15}>

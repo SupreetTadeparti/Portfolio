@@ -12,7 +12,7 @@ export default function Team() {
             <Eyebrow>Open source & leadership</Eyebrow>
             <h1 className="page-title">The Team</h1>
             <p className="page-lede">
-              Table tennis is an individual sport played by teams. So is software. Here’s where I build with — and for — other people.
+              Most of what I’m proud of, I did with other people. This is the leadership, open source and hackathon side of things.
             </p>
           </Reveal>
         </div>

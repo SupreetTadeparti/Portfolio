@@ -11,7 +11,7 @@ export const roles = {
     hex: '#ff3b5c',
     headline: 'Defense wins championships.',
     intro:
-      'I build software that assumes someone is trying to break it — role-based access control in production at NCTTA, row-level access policies in Supabase, IAM and server-side rules in Firebase, and tamper-proof storage on-chain.',
+      'A lot of what I build comes down to who gets to see and change what. At NCTTA I built role-based access control for admin permissions, and in my own projects I’ve set up Supabase access policies, Firebase IAM and security rules, and tamper-proof storage on the ICP blockchain.',
     resume: '/resumes/security.pdf',
     stats: [
       { value: 1000, suffix: '+', label: 'Athletes behind RBAC' },
@@ -35,9 +35,9 @@ export const roles = {
     short: 'FS',
     color: 'var(--fs)',
     hex: '#22d3ee',
-    headline: 'Every layer. Every rally.',
+    headline: 'I like owning a feature from the database to the button.',
     intro:
-      'From Figma frames to Azure deploys: .NET 8 APIs at NCTTA, React and Vue frontends, Supabase, Firebase and MongoDB backends — and a hackathon podium finish built in 24 hours.',
+      'At NCTTA I work in .NET 8 and Azure. On my own projects it’s usually React or Vue on the front end, with Supabase, Firebase or MongoDB behind it. I’ve also designed apps in Figma before building them, and MathWhiz, which my team built in 24 hours, took 3rd at SwampHacks X.',
     resume: '/resumes/fullstack.pdf',
     stats: [
       { value: 150, suffix: '+', label: 'Universities served' },
@@ -60,9 +60,9 @@ export const roles = {
     short: 'ML',
     color: 'var(--ml)',
     hex: '#a78bfa',
-    headline: 'Read the spin. Predict the shot.',
+    headline: 'Reading spin is basically pattern recognition.',
     intro:
-      'Models that see, read and play: a constellation classifier, an NLP narrative engine, an OpenAI + Manim pipeline that turns prompts into animated lessons, and neuroevolved agents that taught themselves Tetris and Snake.',
+      'I’ve trained a model that recognizes hand-drawn constellations, used NLP to pull characters out of stories and drop them into new ones, and worked on a pipeline that turns math questions into animated lessons. Before any of that, I was teaching neural networks to play Tetris and Snake with NEAT.',
     resume: '/resumes/ml.pdf',
     stats: [
       { value: 85, suffix: '%+', label: 'Constellation accuracy' },
@@ -76,7 +76,7 @@ export const roles = {
       { group: 'Languages', items: ['Python', 'JavaScript', 'C/C++', 'SQL'] },
       { group: 'Machine Learning', items: ['Scikit-learn', 'TensorFlow', 'NumPy', 'Pandas', 'Image Augmentation'] },
     ],
-    certification: 'DeepLearning.AI Specialization — Neural Networks, Hyperparameter Tuning, Structuring ML Projects',
+    certification: 'DeepLearning.AI Specialization (Neural Networks, Hyperparameter Tuning, Structuring ML Projects)',
     coursework: ['Data Structures', 'Algorithms', 'Engineering Statistics'],
   },
 };

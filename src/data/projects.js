@@ -6,7 +6,7 @@ export const projects = {
   mathwhiz: {
     name: 'MathWhiz',
     year: 2025,
-    tagline: 'Math prompts in, animated tutorials out.',
+    tagline: 'Turns math questions into animated lessons.',
     award: '3rd Place Overall · SwampHacks X',
     stack: ['React', 'TypeScript', 'Tailwind CSS', 'Supabase', 'Flask', 'OpenAI API', 'Manim', 'Auth0'],
     repo: gh('MathWhiz'),
@@ -26,7 +26,7 @@ export const projects = {
   inkwell: {
     name: 'Inkwell',
     year: 2024,
-    tagline: 'Tamper-proof notes on the Internet Computer — built for the dApp Hackathon.',
+    tagline: 'Tamper-proof notes on the Internet Computer, built for the dApp Hackathon.',
     stack: ['React', 'Motoko', 'ICP', 'dfx'],
     repo: gh('Inkwell'),
     live: 'https://vjd2p-iqaaa-aaaap-ahobq-cai.icp0.io/',
@@ -40,7 +40,7 @@ export const projects = {
   recom: {
     name: 'Recom',
     year: 2023,
-    tagline: 'A community hub with donations, chat and elections.',
+    tagline: 'A community app for donations, chat and elections.',
     stack: ['Vue', 'Firebase', 'Figma'],
     repo: gh('Recom'),
     bullets: {
@@ -57,7 +57,7 @@ export const projects = {
   constelguessr: {
     name: 'ConstelGuessr',
     year: 2025,
-    tagline: 'Draw a constellation, get an instant guess.',
+    tagline: 'Draw a constellation and see if the model can name it.',
     stack: ['React', 'Flask', 'scikit-learn', 'Image Augmentation'],
     repo: gh('ConstelGuessr'),
     caseStudy: 'constelguessr',
@@ -71,7 +71,7 @@ export const projects = {
   paruni: {
     name: 'Paruni',
     year: 2023,
-    tagline: 'A parallel-universe emulator for story characters.',
+    tagline: 'Drops story characters into a parallel universe.',
     award: '2nd Place Overall · LingHacks V',
     stack: ['JavaScript', 'OpenAI API', 'compromise (NLP)'],
     repo: gh('Paruni'),
@@ -85,26 +85,26 @@ export const projects = {
   nodeauth: {
     name: 'NodeAuth',
     year: 2022,
-    tagline: 'Session-based auth server from first principles.',
+    tagline: 'A session-based login server built from scratch.',
     stack: ['Node.js', 'Express', 'Passport', 'bcrypt', 'MongoDB'],
     repo: gh('NodeAuth'),
     bullets: {
       default: [
         'Built a local-strategy **authentication server** with **Passport.js**, **bcrypt**-hashed credentials and **express-session** cookies.',
-        'Protected routes with login guards and persisted users in **MongoDB** via Mongoose.',
+        'Protected routes behind a login check and stored users in **MongoDB** with Mongoose.',
       ],
     },
   },
   piary: {
     name: 'Piary',
     year: 2022,
-    tagline: 'A private online diary — client + server.',
+    tagline: 'A private online diary with its own client and server.',
     stack: ['TypeScript', 'React', 'Node.js', 'Express', 'MongoDB'],
     repo: gh('Piary'),
     bullets: {
       default: [
-        'Built an online diary platform focused on **privacy**, with a separate **TypeScript client** and **Node/Express API**.',
-        'Modeled entries and users in **MongoDB** behind authenticated REST routes.',
+        'Built a private online diary with a **TypeScript** client and a separate **Node/Express API**.',
+        'Stored entries and users in **MongoDB**, and only signed-in users can reach the REST routes.',
       ],
     },
   },
@@ -116,8 +116,8 @@ export const projects = {
     repo: 'https://github.com/ufosc/Jukebox-Frontend',
     bullets: {
       default: [
-        'Contributing to the **UF Open Source Club** Jukebox frontend, a microservice that pairs with the Jukebox server.',
-        'Working inside a repo gated by **CI linting and unit-test** workflows.',
+        'Contributing to the frontend for the **UF Open Source Club** Jukebox project, which runs alongside the Jukebox server.',
+        'Every pull request has to pass **CI linting and unit tests** before it gets merged.',
       ],
     },
   },
@@ -130,7 +130,7 @@ export const projects = {
     bullets: {
       default: [
         'Built a **Vue 3 + Firebase** web app for running a table tennis league.',
-        'Locked down data with **Firestore** and **Storage security rules**.',
+        'Wrote **Firestore** and **Storage security rules** so people can only change what they’re allowed to.',
       ],
     },
   },
@@ -143,34 +143,34 @@ export const projects = {
     repo: gh('Snowgineer'),
     bullets: {
       default: [
-        'Built a **Nuxt 3** full-stack app where users compete on weekly challenges.',
-        'Paired file-based **server routes** with Vue pages and components.',
+        'Built a **Nuxt 3** full-stack app where people compete in weekly challenges.',
+        'Used Nuxt’s **server routes** for the backend and Vue components for the frontend.',
       ],
     },
   },
   tetrisai: {
     name: 'TetrisAI',
     year: 2023,
-    tagline: 'An agent that evolves to play Tetris.',
+    tagline: 'An agent that learns to play Tetris.',
     stack: ['Python', 'NEAT', 'Pygame'],
     repo: gh('TetrisAI'),
     bullets: {
       default: [
         'Wrote Tetris from scratch in **Pygame** and trained agents with **NEAT** neuroevolution.',
-        'Designed the board-state features and fitness function that the networks optimize.',
+        'Picked the board features the networks see and wrote the fitness function they try to maximize.',
       ],
     },
   },
   snakeai: {
     name: 'Snake-AI',
     year: 2022,
-    tagline: 'Watch a network learn Snake.',
+    tagline: 'Watch a neural network learn to play Snake.',
     stack: ['Python', 'NEAT', 'Pygame'],
     repo: gh('Snake-AI'),
     bullets: {
       default: [
-        'Trained Snake agents through **NeuroEvolution of Augmenting Topologies (NEAT)**.',
-        'Visualized generations in **Pygame** to watch strategies emerge.',
+        'Trained Snake agents with **NEAT** (NeuroEvolution of Augmenting Topologies).',
+        'Used **Pygame** to show each generation playing, so you can watch the strategies improve.',
       ],
     },
   },

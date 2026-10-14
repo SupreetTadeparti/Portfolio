@@ -3,7 +3,7 @@ export const openSource = [
     name: 'Jukebox Frontend',
     org: 'UF Open Source Club',
     href: 'https://github.com/ufosc/Jukebox-Frontend',
-    body: 'Contributing to the React frontend for OSC’s Jukebox — an independent microservice that pairs with the Jukebox server. Every change runs through CI linting and unit tests.',
+    body: 'I contribute to the React frontend for the club’s Jukebox project, which runs as its own service alongside the Jukebox server. Every pull request has to pass CI linting and unit tests before it’s merged.',
     tags: ['React', 'TypeScript', 'CI'],
   },
 ];
@@ -18,7 +18,7 @@ export const leadership = [
       { value: '$8K+', label: 'New revenue raised' },
       { value: '180+', label: 'Tournament registrations' },
     ],
-    body: 'Run club operations end to end — tournaments, fundraising, travel — and got the team back to Nationals for the first time in eight years.',
+    body: 'I handle pretty much everything for the club, from running tournaments to fundraising and planning travel. We made it to Nationals for the first time in eight years.',
   },
   {
     org: 'NCTTA',
@@ -29,7 +29,7 @@ export const leadership = [
       { value: '150+', label: 'Universities' },
       { value: '25+', label: 'API endpoints' },
     ],
-    body: 'Building the national collegiate table tennis platform in .NET 8 and Azure — the same sport, from the other side of the net.',
+    body: 'I work on the platform that runs collegiate table tennis across the country, using .NET 8 and Azure. It’s cool getting to build software for the sport I play.',
   },
   {
     org: 'University of Florida',
@@ -40,7 +40,7 @@ export const leadership = [
       { value: '14', label: 'Activities designed' },
       { value: '100+', label: 'Students proctored' },
     ],
-    body: 'Ran two weekly Python labs for UF’s intro programming course, designing 14 collaborative activities to reinforce complex programming concepts.',
+    body: 'I ran two Python labs a week for UF’s intro programming course and designed 14 group activities to help the harder concepts stick.',
   },
 ];
 

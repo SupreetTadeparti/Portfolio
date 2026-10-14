@@ -74,7 +74,7 @@ export default function Nav() {
   return (
     <header className="nav">
       <div className="wrap">
-        <Link to="/" className="brand" aria-label="Supreet Tadeparti — home">
+        <Link to="/" className="brand" aria-label="Supreet Tadeparti, home page">
           <span className="brand-ball" />
           <span>
             SUPREET T. <small>· CENTER COURT</small>
