@@ -31,7 +31,6 @@ export const caseStudies = [
     links: [
       { label: 'GitHub', href: 'https://github.com/SupreetTadeparti/MathWhiz' },
       { label: 'Devpost', href: 'https://devpost.com/software/mathwhiz' },
-      { label: 'mathwhiz.biz', href: 'https://mathwhiz.biz' },
     ],
   },
   {
