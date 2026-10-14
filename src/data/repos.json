@@ -1,0 +1,819 @@
+[
+  {
+    "name": "MathWhiz",
+    "description": "",
+    "language": "TypeScript",
+    "stars": 0,
+    "fork": false,
+    "url": "https://github.com/SupreetTadeparti/MathWhiz",
+    "homepage": "",
+    "created": "2025-01-25",
+    "pushed": "2026-10-12",
+    "categories": [
+      "AI/ML",
+      "Hackathon"
+    ]
+  },
+  {
+    "name": "Jukebox-Frontend",
+    "description": "Front end application for the Jukebox project.",
+    "language": "Other",
+    "stars": 0,
+    "fork": true,
+    "url": "https://github.com/SupreetTadeparti/Jukebox-Frontend",
+    "homepage": "",
+    "created": "2026-10-06",
+    "pushed": "2026-10-06",
+    "categories": [
+      "Web"
+    ]
+  },
+  {
+    "name": "GatorLeagueTableTennis",
+    "description": "",
+    "language": "Vue",
+    "stars": 0,
+    "fork": false,
+    "url": "https://github.com/SupreetTadeparti/GatorLeagueTableTennis",
+    "homepage": "",
+    "created": "2025-10-17",
+    "pushed": "2026-09-29",
+    "categories": [
+      "Web"
+    ]
+  },
+  {
+    "name": "SNOP",
+    "description": "Student Nighttime Optimized Patrol",
+    "language": "Dart",
+    "stars": 0,
+    "fork": false,
+    "url": "https://github.com/SupreetTadeparti/SNOP",
+    "homepage": "",
+    "created": "2025-10-20",
+    "pushed": "2025-11-09",
+    "categories": [
+      "Graphics/Sim"
+    ]
+  },
+  {
+    "name": "ConstelGuessr",
+    "description": "",
+    "language": "JavaScript",
+    "stars": 0,
+    "fork": false,
+    "url": "https://github.com/SupreetTadeparti/ConstelGuessr",
+    "homepage": "",
+    "created": "2025-07-23",
+    "pushed": "2025-07-26",
+    "categories": [
+      "AI/ML",
+      "Hackathon"
+    ]
+  },
+  {
+    "name": "Moon",
+    "description": "Moon is an underconstruction game engine",
+    "language": "C++",
+    "stars": 0,
+    "fork": false,
+    "url": "https://github.com/SupreetTadeparti/Moon",
+    "homepage": "",
+    "created": "2022-06-24",
+    "pushed": "2025-03-31",
+    "categories": [
+      "Graphics/Sim"
+    ]
+  },
+  {
+    "name": "SwampHacksPractice",
+    "description": "",
+    "language": "TypeScript",
+    "stars": 0,
+    "fork": false,
+    "url": "https://github.com/SupreetTadeparti/SwampHacksPractice",
+    "homepage": "",
+    "created": "2025-01-24",
+    "pushed": "2025-01-25",
+    "categories": [
+      "Hackathon"
+    ]
+  },
+  {
+    "name": "NBodySimulator",
+    "description": "",
+    "language": "Python",
+    "stars": 0,
+    "fork": false,
+    "url": "https://github.com/SupreetTadeparti/NBodySimulator",
+    "homepage": "",
+    "created": "2024-12-04",
+    "pushed": "2024-12-04",
+    "categories": [
+      "Graphics/Sim"
+    ]
+  },
+  {
+    "name": "whackamole-template",
+    "description": "",
+    "language": "Python",
+    "stars": 0,
+    "fork": true,
+    "url": "https://github.com/SupreetTadeparti/whackamole-template",
+    "homepage": "",
+    "created": "2024-11-13",
+    "pushed": "2024-11-13",
+    "categories": [
+      "Games"
+    ]
+  },
+  {
+    "name": "CPAnalysisTimer",
+    "description": "Stopwatch to better understand how you distribute yoru time among coding and thinking. ",
+    "language": "JavaScript",
+    "stars": 0,
+    "fork": false,
+    "url": "https://github.com/SupreetTadeparti/CPAnalysisTimer",
+    "homepage": "",
+    "created": "2024-09-29",
+    "pushed": "2024-09-29",
+    "categories": [
+      "Tools"
+    ]
+  },
+  {
+    "name": "Inkwell",
+    "description": "A decentralized notes-taking web app",
+    "language": "JavaScript",
+    "stars": 1,
+    "fork": false,
+    "url": "https://github.com/SupreetTadeparti/Inkwell",
+    "homepage": "",
+    "created": "2024-06-27",
+    "pushed": "2024-07-13",
+    "categories": [
+      "Hackathon"
+    ]
+  },
+  {
+    "name": "Snowgineer",
+    "description": "Wanna become a snow engineer? Compete with others with weekly challenges.",
+    "language": "Vue",
+    "stars": 0,
+    "fork": false,
+    "url": "https://github.com/SupreetTadeparti/Snowgineer",
+    "homepage": "",
+    "created": "2024-02-19",
+    "pushed": "2024-02-19",
+    "categories": [
+      "Hackathon"
+    ]
+  },
+  {
+    "name": "Shogun",
+    "description": "",
+    "language": "TypeScript",
+    "stars": 0,
+    "fork": false,
+    "url": "https://github.com/SupreetTadeparti/Shogun",
+    "homepage": "",
+    "created": "2023-11-25",
+    "pushed": "2023-12-17",
+    "categories": [
+      "Games"
+    ]
+  },
+  {
+    "name": "Pathfinding-Visualizer",
+    "description": "A pathfinding visualizer -_-",
+    "language": "JavaScript",
+    "stars": 0,
+    "fork": false,
+    "url": "https://github.com/SupreetTadeparti/Pathfinding-Visualizer",
+    "homepage": "",
+    "created": "2021-11-19",
+    "pushed": "2023-10-16",
+    "categories": [
+      "Graphics/Sim"
+    ]
+  },
+  {
+    "name": "Mahabharata",
+    "description": "",
+    "language": "EJS",
+    "stars": 0,
+    "fork": false,
+    "url": "https://github.com/SupreetTadeparti/Mahabharata",
+    "homepage": "",
+    "created": "2023-02-15",
+    "pushed": "2023-09-17",
+    "categories": [
+      "Web"
+    ]
+  },
+  {
+    "name": "Recom",
+    "description": "",
+    "language": "Vue",
+    "stars": 0,
+    "fork": false,
+    "url": "https://github.com/SupreetTadeparti/Recom",
+    "homepage": "",
+    "created": "2023-07-13",
+    "pushed": "2023-07-29",
+    "categories": [
+      "Hackathon"
+    ]
+  },
+  {
+    "name": "Mathical",
+    "description": "A game where math meets magic",
+    "language": "JavaScript",
+    "stars": 0,
+    "fork": false,
+    "url": "https://github.com/SupreetTadeparti/Mathical",
+    "homepage": "",
+    "created": "2023-07-23",
+    "pushed": "2023-07-23",
+    "categories": [
+      "Games",
+      "Hackathon"
+    ]
+  },
+  {
+    "name": "WordStorm",
+    "description": "",
+    "language": "EJS",
+    "stars": 0,
+    "fork": false,
+    "url": "https://github.com/SupreetTadeparti/WordStorm",
+    "homepage": "",
+    "created": "2023-07-01",
+    "pushed": "2023-07-01",
+    "categories": [
+      "Hackathon"
+    ]
+  },
+  {
+    "name": "Paruni",
+    "description": "Parallel Universe Emulator",
+    "language": "JavaScript",
+    "stars": 0,
+    "fork": false,
+    "url": "https://github.com/SupreetTadeparti/Paruni",
+    "homepage": "",
+    "created": "2023-06-25",
+    "pushed": "2023-06-25",
+    "categories": [
+      "AI/ML",
+      "Hackathon"
+    ]
+  },
+  {
+    "name": "PiaryServer",
+    "description": "",
+    "language": "JavaScript",
+    "stars": 0,
+    "fork": false,
+    "url": "https://github.com/SupreetTadeparti/PiaryServer",
+    "homepage": "",
+    "created": "2023-02-16",
+    "pushed": "2023-06-20",
+    "categories": [
+      "Web"
+    ]
+  },
+  {
+    "name": "Piary",
+    "description": "Online Diary",
+    "language": "TypeScript",
+    "stars": 0,
+    "fork": false,
+    "url": "https://github.com/SupreetTadeparti/Piary",
+    "homepage": "",
+    "created": "2022-09-26",
+    "pushed": "2023-06-15",
+    "categories": [
+      "Web"
+    ]
+  },
+  {
+    "name": "Farmonopoly",
+    "description": "",
+    "language": "JavaScript",
+    "stars": 0,
+    "fork": false,
+    "url": "https://github.com/SupreetTadeparti/Farmonopoly",
+    "homepage": "",
+    "created": "2023-06-05",
+    "pushed": "2023-06-05",
+    "categories": [
+      "Games",
+      "Hackathon"
+    ]
+  },
+  {
+    "name": "BioAlmanac",
+    "description": "",
+    "language": "HTML",
+    "stars": 0,
+    "fork": false,
+    "url": "https://github.com/SupreetTadeparti/BioAlmanac",
+    "homepage": "",
+    "created": "2023-05-23",
+    "pushed": "2023-05-23",
+    "categories": [
+      "Hackathon"
+    ]
+  },
+  {
+    "name": "EdBud",
+    "description": "",
+    "language": "CSS",
+    "stars": 0,
+    "fork": false,
+    "url": "https://github.com/SupreetTadeparti/EdBud",
+    "homepage": "",
+    "created": "2023-05-20",
+    "pushed": "2023-05-20",
+    "categories": [
+      "Hackathon"
+    ]
+  },
+  {
+    "name": "VergeArticleScraper",
+    "description": "",
+    "language": "Python",
+    "stars": 0,
+    "fork": false,
+    "url": "https://github.com/SupreetTadeparti/VergeArticleScraper",
+    "homepage": "",
+    "created": "2023-04-11",
+    "pushed": "2023-04-11",
+    "categories": [
+      "Tools"
+    ]
+  },
+  {
+    "name": "Blagama",
+    "description": "Chess AI using Supervised Reinforcement Learning",
+    "language": "C++",
+    "stars": 0,
+    "fork": false,
+    "url": "https://github.com/SupreetTadeparti/Blagama",
+    "homepage": "",
+    "created": "2023-03-03",
+    "pushed": "2023-03-07",
+    "categories": [
+      "AI/ML"
+    ]
+  },
+  {
+    "name": "RubiksCubeSolver",
+    "description": "",
+    "language": "JavaScript",
+    "stars": 0,
+    "fork": false,
+    "url": "https://github.com/SupreetTadeparti/RubiksCubeSolver",
+    "homepage": "",
+    "created": "2023-01-30",
+    "pushed": "2023-01-30",
+    "categories": [
+      "Graphics/Sim"
+    ]
+  },
+  {
+    "name": "CheetahPy",
+    "description": "",
+    "language": "Python",
+    "stars": 0,
+    "fork": false,
+    "url": "https://github.com/SupreetTadeparti/CheetahPy",
+    "homepage": "",
+    "created": "2023-01-30",
+    "pushed": "2023-01-30",
+    "categories": [
+      "Tools"
+    ]
+  },
+  {
+    "name": "TetrisAI",
+    "description": "",
+    "language": "Python",
+    "stars": 0,
+    "fork": false,
+    "url": "https://github.com/SupreetTadeparti/TetrisAI",
+    "homepage": "",
+    "created": "2023-01-30",
+    "pushed": "2023-01-30",
+    "categories": [
+      "AI/ML"
+    ]
+  },
+  {
+    "name": "SortingAlgorithmVisualizer",
+    "description": "",
+    "language": "JavaScript",
+    "stars": 0,
+    "fork": false,
+    "url": "https://github.com/SupreetTadeparti/SortingAlgorithmVisualizer",
+    "homepage": "",
+    "created": "2023-01-30",
+    "pushed": "2023-01-30",
+    "categories": [
+      "Graphics/Sim"
+    ]
+  },
+  {
+    "name": "SpeedTyper",
+    "description": "Test your typing speed",
+    "language": "JavaScript",
+    "stars": 0,
+    "fork": false,
+    "url": "https://github.com/SupreetTadeparti/SpeedTyper",
+    "homepage": "",
+    "created": "2023-01-30",
+    "pushed": "2023-01-30",
+    "categories": [
+      "Games"
+    ]
+  },
+  {
+    "name": "CovidWavePredictor",
+    "description": "Predicts future covid cases",
+    "language": "JavaScript",
+    "stars": 0,
+    "fork": false,
+    "url": "https://github.com/SupreetTadeparti/CovidWavePredictor",
+    "homepage": "",
+    "created": "2023-01-29",
+    "pushed": "2023-01-29",
+    "categories": [
+      "AI/ML"
+    ]
+  },
+  {
+    "name": "Snake-AI",
+    "description": "Snake AI developed using PyGame and Neat",
+    "language": "Python",
+    "stars": 0,
+    "fork": false,
+    "url": "https://github.com/SupreetTadeparti/Snake-AI",
+    "homepage": "",
+    "created": "2022-08-09",
+    "pushed": "2022-12-17",
+    "categories": [
+      "AI/ML"
+    ]
+  },
+  {
+    "name": "Ballooneedle",
+    "description": "",
+    "language": "C++",
+    "stars": 0,
+    "fork": false,
+    "url": "https://github.com/SupreetTadeparti/Ballooneedle",
+    "homepage": "",
+    "created": "2022-10-31",
+    "pushed": "2022-10-31",
+    "categories": [
+      "Games"
+    ]
+  },
+  {
+    "name": "GammaVote",
+    "description": "Poll Voting Web Application",
+    "language": "JavaScript",
+    "stars": 0,
+    "fork": false,
+    "url": "https://github.com/SupreetTadeparti/GammaVote",
+    "homepage": "",
+    "created": "2022-10-21",
+    "pushed": "2022-10-23",
+    "categories": [
+      "Web"
+    ]
+  },
+  {
+    "name": "TaskCRUD",
+    "description": "",
+    "language": "JavaScript",
+    "stars": 0,
+    "fork": false,
+    "url": "https://github.com/SupreetTadeparti/TaskCRUD",
+    "homepage": "",
+    "created": "2022-10-09",
+    "pushed": "2022-10-09",
+    "categories": [
+      "Web"
+    ]
+  },
+  {
+    "name": "CntBrds-MltTime",
+    "description": "",
+    "language": "JavaScript",
+    "stars": 0,
+    "fork": false,
+    "url": "https://github.com/SupreetTadeparti/CntBrds-MltTime",
+    "homepage": "",
+    "created": "2022-10-09",
+    "pushed": "2022-10-09",
+    "categories": [
+      "Web"
+    ]
+  },
+  {
+    "name": "NodeAuth",
+    "description": "",
+    "language": "JavaScript",
+    "stars": 0,
+    "fork": false,
+    "url": "https://github.com/SupreetTadeparti/NodeAuth",
+    "homepage": "",
+    "created": "2022-10-08",
+    "pushed": "2022-10-08",
+    "categories": [
+      "Web"
+    ]
+  },
+  {
+    "name": "Algofinity",
+    "description": "Popular algorithms implemented in popular languages",
+    "language": "Java",
+    "stars": 0,
+    "fork": false,
+    "url": "https://github.com/SupreetTadeparti/Algofinity",
+    "homepage": "",
+    "created": "2022-10-03",
+    "pushed": "2022-10-04",
+    "categories": [
+      "Tools"
+    ]
+  },
+  {
+    "name": "MealLogger",
+    "description": "",
+    "language": "JavaScript",
+    "stars": 0,
+    "fork": false,
+    "url": "https://github.com/SupreetTadeparti/MealLogger",
+    "homepage": "",
+    "created": "2022-10-03",
+    "pushed": "2022-10-03",
+    "categories": [
+      "Web"
+    ]
+  },
+  {
+    "name": "99AcresClone",
+    "description": "A clone of the 99acres website",
+    "language": "JavaScript",
+    "stars": 0,
+    "fork": false,
+    "url": "https://github.com/SupreetTadeparti/99AcresClone",
+    "homepage": "",
+    "created": "2022-09-29",
+    "pushed": "2022-09-29",
+    "categories": [
+      "Web"
+    ]
+  },
+  {
+    "name": "TerrainGeneration",
+    "description": "",
+    "language": "Python",
+    "stars": 2,
+    "fork": false,
+    "url": "https://github.com/SupreetTadeparti/TerrainGeneration",
+    "homepage": "",
+    "created": "2022-06-11",
+    "pushed": "2022-08-19",
+    "categories": [
+      "Graphics/Sim"
+    ]
+  },
+  {
+    "name": "Die-or-Die",
+    "description": "Die, or die!",
+    "language": "C++",
+    "stars": 1,
+    "fork": false,
+    "url": "https://github.com/SupreetTadeparti/Die-or-Die",
+    "homepage": "",
+    "created": "2022-07-18",
+    "pushed": "2022-07-18",
+    "categories": [
+      "Games"
+    ]
+  },
+  {
+    "name": "Potatoes",
+    "description": "Best 404 Page (2022 Hackathon, first one of this type)",
+    "language": "CSS",
+    "stars": 0,
+    "fork": true,
+    "url": "https://github.com/SupreetTadeparti/Potatoes",
+    "homepage": "",
+    "created": "2022-07-06",
+    "pushed": "2022-07-06",
+    "categories": [
+      "Hackathon"
+    ]
+  },
+  {
+    "name": "404Hackathon",
+    "description": "",
+    "language": "CSS",
+    "stars": 0,
+    "fork": false,
+    "url": "https://github.com/SupreetTadeparti/404Hackathon",
+    "homepage": "",
+    "created": "2022-07-06",
+    "pushed": "2022-07-06",
+    "categories": [
+      "Hackathon"
+    ]
+  },
+  {
+    "name": "MazeRunner",
+    "description": "",
+    "language": "JavaScript",
+    "stars": 0,
+    "fork": false,
+    "url": "https://github.com/SupreetTadeparti/MazeRunner",
+    "homepage": "",
+    "created": "2022-04-11",
+    "pushed": "2022-05-13",
+    "categories": [
+      "Games"
+    ]
+  },
+  {
+    "name": "CodeEditor",
+    "description": "",
+    "language": "JavaScript",
+    "stars": 0,
+    "fork": false,
+    "url": "https://github.com/SupreetTadeparti/CodeEditor",
+    "homepage": "",
+    "created": "2022-03-20",
+    "pushed": "2022-03-20",
+    "categories": [
+      "Tools"
+    ]
+  },
+  {
+    "name": "Quoter",
+    "description": "",
+    "language": "JavaScript",
+    "stars": 0,
+    "fork": false,
+    "url": "https://github.com/SupreetTadeparti/Quoter",
+    "homepage": "",
+    "created": "2022-03-16",
+    "pushed": "2022-03-17",
+    "categories": [
+      "Web"
+    ]
+  },
+  {
+    "name": "Poter",
+    "description": "A poll voting app",
+    "language": "CSS",
+    "stars": 0,
+    "fork": false,
+    "url": "https://github.com/SupreetTadeparti/Poter",
+    "homepage": "",
+    "created": "2022-01-28",
+    "pushed": "2022-01-28",
+    "categories": [
+      "Web"
+    ]
+  },
+  {
+    "name": "MERN-Template",
+    "description": "A basic MERN template for full stack web development",
+    "language": "JavaScript",
+    "stars": 0,
+    "fork": false,
+    "url": "https://github.com/SupreetTadeparti/MERN-Template",
+    "homepage": "",
+    "created": "2022-01-06",
+    "pushed": "2022-01-06",
+    "categories": [
+      "Tools"
+    ]
+  },
+  {
+    "name": "NeuralNetworkVisualizer",
+    "description": "",
+    "language": "JavaScript",
+    "stars": 0,
+    "fork": false,
+    "url": "https://github.com/SupreetTadeparti/NeuralNetworkVisualizer",
+    "homepage": "",
+    "created": "2021-12-06",
+    "pushed": "2021-12-09",
+    "categories": [
+      "AI/ML"
+    ]
+  },
+  {
+    "name": "clean-sea",
+    "description": "",
+    "language": "CSS",
+    "stars": 0,
+    "fork": false,
+    "url": "https://github.com/SupreetTadeparti/clean-sea",
+    "homepage": "",
+    "created": "2021-11-11",
+    "pushed": "2021-11-24",
+    "categories": [
+      "Web"
+    ]
+  },
+  {
+    "name": "PallsIO",
+    "description": "",
+    "language": "JavaScript",
+    "stars": 0,
+    "fork": false,
+    "url": "https://github.com/SupreetTadeparti/PallsIO",
+    "homepage": "",
+    "created": "2021-11-23",
+    "pushed": "2021-11-23",
+    "categories": [
+      "Web"
+    ]
+  },
+  {
+    "name": "SnippetSandbox",
+    "description": "Test out some snippets of a website! A great coding sandbox.",
+    "language": "CSS",
+    "stars": 0,
+    "fork": false,
+    "url": "https://github.com/SupreetTadeparti/SnippetSandbox",
+    "homepage": "",
+    "created": "2021-11-01",
+    "pushed": "2021-11-16",
+    "categories": [
+      "Tools"
+    ]
+  },
+  {
+    "name": "PotatoGames",
+    "description": "A bunch of minigames to play on the fly!",
+    "language": "JavaScript",
+    "stars": 0,
+    "fork": false,
+    "url": "https://github.com/SupreetTadeparti/PotatoGames",
+    "homepage": "",
+    "created": "2021-10-30",
+    "pushed": "2021-11-01",
+    "categories": [
+      "Games"
+    ]
+  },
+  {
+    "name": "GlobalBlog",
+    "description": "A blogging website",
+    "language": "Python",
+    "stars": 0,
+    "fork": false,
+    "url": "https://github.com/SupreetTadeparti/GlobalBlog",
+    "homepage": "",
+    "created": "2021-10-12",
+    "pushed": "2021-10-21",
+    "categories": [
+      "Tools"
+    ]
+  },
+  {
+    "name": "Calculator",
+    "description": "A calculator website",
+    "language": "CSS",
+    "stars": 0,
+    "fork": false,
+    "url": "https://github.com/SupreetTadeparti/Calculator",
+    "homepage": "",
+    "created": "2021-10-12",
+    "pushed": "2021-10-12",
+    "categories": [
+      "Tools"
+    ]
+  },
+  {
+    "name": "Sudoku-Solver",
+    "description": "A sudoku solver...",
+    "language": "Python",
+    "stars": 0,
+    "fork": false,
+    "url": "https://github.com/SupreetTadeparti/Sudoku-Solver",
+    "homepage": "",
+    "created": "2021-08-09",
+    "pushed": "2021-08-10",
+    "categories": [
+      "Games"
+    ]
+  }
+]

@@ -1,0 +1,63 @@
+:root {
+  /* Arena (dark-first) */
+  --arena: #07090f;
+  --arena-2: #0c1019;
+  --panel: #111623;
+  --panel-2: #161d2e;
+  --line: rgba(255, 255, 255, 0.08);
+  --line-strong: rgba(255, 255, 255, 0.16);
+  --text: #eef2f8;
+  --text-2: #b6bfd0;
+  --muted: #7d879c;
+
+  /* Court */
+  --table: #1f5fe0;
+  --table-deep: #12389a;
+  --ball: #ff6a1a;
+  --ball-soft: rgba(255, 106, 26, 0.16);
+
+  /* Team colors */
+  --sec: #ff3b5c;
+  --fs: #22d3ee;
+  --ml: #a78bfa;
+  --accent: var(--ball);
+  --on-accent: #05070c;
+
+  /* Type */
+  --display: 'Unbounded', 'Inter', system-ui, sans-serif;
+  --body: 'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --mono: 'JetBrains Mono', ui-monospace, 'SFMono-Regular', Consolas, monospace;
+
+  --radius: 14px;
+  --radius-sm: 8px;
+  --chev: 14px;
+  --gutter: clamp(16px, 4vw, 48px);
+  --max: 1240px;
+  --nav-h: 64px;
+  --ease: cubic-bezier(0.2, 0.8, 0.2, 1);
+
+  --spot: radial-gradient(ellipse 70% 55% at 50% -10%, rgba(80, 120, 255, 0.16), transparent 70%);
+  color-scheme: dark;
+}
+
+/* Daytime court */
+:root[data-theme='light'] {
+  --arena: #eef1f7;
+  --arena-2: #e4e8f1;
+  --panel: #ffffff;
+  --panel-2: #f5f7fb;
+  --line: rgba(10, 20, 40, 0.09);
+  --line-strong: rgba(10, 20, 40, 0.18);
+  --text: #0b1020;
+  --text-2: #36405a;
+  --muted: #5f6a82;
+  --table: #1a56d6;
+  --ball: #e85a0c;
+  --ball-soft: rgba(232, 90, 12, 0.12);
+  --sec: #e11d48;
+  --fs: #0891b2;
+  --ml: #7c3aed;
+  --spot: radial-gradient(ellipse 70% 55% at 50% -10%, rgba(31, 95, 224, 0.1), transparent 70%);
+  --on-accent: #ffffff;
+  color-scheme: light;
+}
